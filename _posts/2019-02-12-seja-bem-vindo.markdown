@@ -14,7 +14,7 @@ Crei esse blog por dois motivos:
 
 Provavelmente os assuntos desse blog será voltado para as áreas que envolve banco de dados, big data e datascience, mas pode ser que um dia queira publicar algo fora dessa área.
 
-Fique a disposição de entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
+Fiquem a disposição para entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
 Até já.
 
