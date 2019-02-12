@@ -1,6 +1,6 @@
 name: Michel Moura Silva blog
-description: Irei compartilhar alguns conhecimentos adquiridos durante esses anos na área de TI, seja algo que estou aprendendo no momento ou projetos no qual estou trabalhando ou trabalhei.
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+description: Big Data, Banco de dados e outros assuntos voltados a área de TI.
+meta_description: "Big Data, Banco de dados e outros assuntos voltados a área de TI"
 
 markdown: kramdown
 highlighter: pygments
@@ -12,5 +12,5 @@ google_analytics: 'UA-134337142-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url:            'michelmourasilva.github.io'
+author:         'Michel Moura Silva'
