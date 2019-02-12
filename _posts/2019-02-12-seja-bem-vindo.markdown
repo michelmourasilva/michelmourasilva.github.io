@@ -14,11 +14,12 @@ Crei esse blog por dois motivos:
 
 Provavelmente os assuntos desse blog será voltado para as áreas que envolve banco de dados, big data e datascience, mas pode ser que um dia queira publicar algo fora dessa área.
 
-Fique a disposição de entrar em contato comigo pelo email michelmourasilva@gmail.com ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
+Fique a disposição de entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
 Até já.
 
 [Facebook]: https://www.facebook.com/michelmourasilva
 [Twitter]: https://twitter.com/meshellmoura
 [Linkedin]: https://www.linkedin.com/in/michelmourasilva/
+[e-mail]:michelmourasilva@gmail.com
 
