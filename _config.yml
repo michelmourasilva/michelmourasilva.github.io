@@ -1,5 +1,5 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: Michel Moura Silva blog
+description: Irei compartilhar alguns conhecimentos adquiridos durante esses anos na área de TI, seja algo que estou aprendendo no momento ou projetos no qual estou trabalhando ou trabalhei.
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: kramdown
@@ -7,8 +7,8 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://michelmourasilva.github.io'
+google_analytics: 'UA-134337142-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
