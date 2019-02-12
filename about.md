@@ -16,10 +16,11 @@ Possui avançado conhecimento na linguagem PL/SQL e Python para analise de dados
 
 Atualmente está se especializando em BigData e machine learning, tendo trabalhado em alguns projetos utilizando Python e Java.
 
-Redes sociais:
+Fiquem a disposição para entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
-  Facebook: https://www.facebook.com/michelmourasilva
-  
-  Twitter: https://twitter.com/meshellmoura
-  
-  Linkedin: https://www.linkedin.com/in/michelmourasilva/
+Até já.
+
+[Facebook]: https://www.facebook.com/michelmourasilva
+[Twitter]: https://twitter.com/meshellmoura
+[Linkedin]: https://www.linkedin.com/in/michelmourasilva/
+[e-mail]: michelmourasilva@gmail.com
