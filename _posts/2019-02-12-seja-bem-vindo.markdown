@@ -2,7 +2,7 @@
 layout: post
 title:  "Seja bem vindo!"
 date:   2019-02-12 12:34:00
-categories: Anúncio
+categories: Menssagem
 ---
 
 Irei compartilhar alguns conhecimentos adquiridos durante esses anos na área de TI sempre de uma forma mais descontraída, seja algo que estou aprendendo no momento ou projetos no qual estou trabalhando ou trabalhei. 
