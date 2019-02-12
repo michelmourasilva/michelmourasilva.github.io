@@ -12,7 +12,7 @@ Crei esse blog por dois motivos:
 
 2 - Compartilhar conhecimento. Pois a melhor forma de se fixar algum assunto é ensinando-o para outras pessoas.
 
-Provavelmente os assuntos desse blog será voltado para as áreas que envolve banco de dados, big data e datascience, mas pode ser que um dia queira publicar algo fora dessa área.
+Provavelmente os assuntos desse blog serão voltados para as áreas que envolve banco de dados, big data e datascience, mas pode ser que um dia queira publicar algo fora dessa área.
 
 Fiquem a disposição para entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
