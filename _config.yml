@@ -6,7 +6,8 @@ markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: ''
+baseurl: ""
+url: http://michelmourasilva.github.io
 domain_name: 'http://michelmourasilva.github.io'
 google_analytics: 'UA-134337142-1'
 gems: [jekyll-paginate]
