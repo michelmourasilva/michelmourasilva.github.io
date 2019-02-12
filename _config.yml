@@ -12,5 +12,5 @@ google_analytics: 'UA-134337142-1'
 gems: [jekyll-paginate]
 
 # Details for the RSS feed generator
-url:            'http://michelmourasilva.github.io'
+url:            https://michelmourasilva.github.io
 author:         'Michel Moura Silva'
