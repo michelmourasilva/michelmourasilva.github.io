@@ -28,4 +28,4 @@ Até já.
 [Twitter]: https://twitter.com/meshellmoura
 [Linkedin]: https://www.linkedin.com/in/michelmourasilva/
 [e-mail]: michelmourasilva@gmail.com
-[curriculum]: {{ site.url }}/assets/images/Curriculum.pdf
+[curriculum]: /assets/images/Curriculum.pdf
