@@ -20,6 +20,8 @@ Fique a disposição para entrar em contato comigo pelo meu [e-mail] ou pelas mi
 
 Para saber sobre toda a minha carreira profissional meu [curriculum] estará a disposição para download.
 
+<object data="{{ site.url }}/assets/images/Curriculum.pdf" width="1000" height="1000" type='application/pdf'/>
+
 Até já.
 
 [Facebook]: https://www.facebook.com/michelmourasilva
