@@ -18,9 +18,12 @@ Atualmente está se especializando em BigData e machine learning, tendo trabalha
 
 Fique a disposição para entrar em contato comigo pelo meu [e-mail] ou pelas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
+Para saber sobre toda a minha carreira profissional meu [curriculum] estará a disposição para download.
+
 Até já.
 
 [Facebook]: https://www.facebook.com/michelmourasilva
 [Twitter]: https://twitter.com/meshellmoura
 [Linkedin]: https://www.linkedin.com/in/michelmourasilva/
 [e-mail]: michelmourasilva@gmail.com
+[curriculum]  url(/assets/images/curriculum.pdf)
