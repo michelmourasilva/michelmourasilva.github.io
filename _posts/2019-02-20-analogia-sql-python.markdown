@@ -26,7 +26,7 @@ O segundo arquivo contém cada herói e o poder que ele possui. Os dados aqui s�
 
 Abaixo está o script para criar uma tabela com a mesma estrutura que o arquivo CSV.
 
-{% highlight sql linenos %}
+{% highlight sql %}
 CREATE TABLE SUPER_HEROES_INFORMATION
 (
   ID NUMBER(14) -- Identificador autonumérico
