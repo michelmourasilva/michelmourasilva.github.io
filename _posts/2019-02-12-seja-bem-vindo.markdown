@@ -5,16 +5,17 @@ date:   2019-02-12 12:34:00
 categories: Menssagem
 ---
 
-Irei compartilhar alguns conhecimentos adquiridos durante esses anos na área de TI sempre de uma forma mais descontraída, seja algo que estou aprendendo no momento ou projetos no qual estou trabalhando ou trabalhei. 
+Irei compartilhar alguns conhecimentos adquiridos durante meus anos na área de TI, sempre de uma forma mais descontraída, objetiva e direta, seja através de algo que estou aprendendo no momento ou através de projetos no qual estou trabalhando ou já trabalhei. 
+
 Crei esse blog por dois motivos:
 
-1 - Ajudar na minha rotina de estudos
+1 - Ajudar na minha rotina de estudos;
 
-2 - Compartilhar conhecimento. Pois a melhor forma de se fixar algum assunto é ensinando-o para outras pessoas.
+2 - Compartilhar conhecimento. Pois acredito que ensinar é a melhor forma de se fixar algum assunto.
 
-Provavelmente os assuntos desse blog serão voltados para as áreas que envolve banco de dados, big data e datascience, mas pode ser que um dia queira publicar algo fora dessa área.
+Provavelmente os assuntos abordados nesse blog serão voltados para a área de banco de dados, big data e ou datascience.
 
-Fiquem a disposição para entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
+Fique a disposição para entrar em contato comigo pelo meu [e-mail] ou pelas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
 
 Até já.
 

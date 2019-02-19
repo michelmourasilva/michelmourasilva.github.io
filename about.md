@@ -16,7 +16,11 @@ Possui avançado conhecimento na linguagem PL/SQL e Python para analise de dados
 
 Atualmente está se especializando em BigData e machine learning, tendo trabalhado em alguns projetos utilizando Python e Java.
 
-Fiquem a disposição para entrar em contato comigo pelo [e-mail] ou nas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
+Fique a disposição para entrar em contato comigo pelo meu [e-mail] ou pelas minhas redes sociais [Facebook],[Twitter] ou [Linkedin].
+
+Para saber sobre toda a minha carreira profissional meu [curriculum] estará a disposição para download.
+
+<object data="{{ site.url }}/assets/images/Curriculum.pdf" width="1000" height="1000" type='application/pdf'/>
 
 Até já.
 
@@ -24,3 +28,4 @@ Até já.
 [Twitter]: https://twitter.com/meshellmoura
 [Linkedin]: https://www.linkedin.com/in/michelmourasilva/
 [e-mail]: michelmourasilva@gmail.com
+[curriculum]: /assets/images/Curriculum.pdf
