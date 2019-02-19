@@ -3,7 +3,7 @@ layout: post
 title:  "Fazendo analogia ao SQL ao utilizar Pandas"
 date:   2019-02-20 19:01:00
 categories: Python, Pandas, SQL
-published: false
+published: true
 ---
 
 ## Fazendo analogia ao SQL ao utilizar Pandas
