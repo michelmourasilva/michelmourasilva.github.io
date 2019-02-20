@@ -1,7 +1,6 @@
 ---
 title: Um Mundo Alem Das Querys Em Sql
 date: 2019-02-20 00:00:00 Z
-published: true
 ---
 
 ## Um mundo além das querys em SQL
