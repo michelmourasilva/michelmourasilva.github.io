@@ -3,6 +3,7 @@ title: Um mundo além das querys em SQL
 date: 2019-02-20 00:00:00 Z
 ---
 
+
 Um dos meu primeiros objetivo ao aprender Python, era poder substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL já que todos falam: "É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO".
 
 Apesar de ser uma linguagem muito útil, eu sabia que existia um outro mundo além de querys SQL, e após muito estudo descobri uma biblioteca muito poderosa chamada Pandas dentro da linguagem Python.
@@ -60,7 +61,6 @@ Partirei agora para alguns exemplos convertendo do SQL para o Python
 Select * from super_heroes_information; 
 {% endhighlight %}
 
-
 {% highlight python %}
 # Python:
 df_origem
@@ -95,8 +95,6 @@ df_origem.head(10)
 
 ![Imagem3.PNG]({{site.baseurl}}/assets/images/20190220/Imagem3.PNG)
 
-ou 
-
 {% highlight sql %}
 -- SQL:
 -- Trazer os 10 registros e apresentar somente 3 colunas
@@ -125,13 +123,11 @@ df_origem[df_origem['name']=='X-Man']
 
 ![Imagem5.PNG]({{site.baseurl}}/assets/images/20190220/Imagem5.PNG)
 
-
 {% highlight sql %}
 -- SQL:
 -- Traz somente uma coluna
 Select name from super_heroes_information where name = 'X-Man'; 
 {% endhighlight %}
-
 
 {% highlight python %}
 # Python:
@@ -153,8 +149,6 @@ df_origem[(df_origem['Publisher']=='DC Comics') & (df_origem['Gender']=='Female'
 
 ![Imagem7.PNG]({{site.baseurl}}/assets/images/20190220/Imagem7.PNG)
 
-ou 
-
 {% highlight sql %} 
 -- SQL:
 -- Traz somente somente uma coluna
@@ -167,7 +161,6 @@ df_origem[['name']][df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem8.PNG]({{site.baseurl}}/assets/images/20190220/Imagem8.PNG)
-
 
 #### **ORDER BY**
 
@@ -184,8 +177,6 @@ df_origem.sort_values(['name'])
 
 ![Imagem9.PNG]({{site.baseurl}}/assets/images/20190220/Imagem9.PNG)
 
-ou 
-
 {% highlight sql %} 
 -- SQL:
 -- Traz somente a coluna nome e fonte de publicação, ordenando por fonte de publicação e nome
@@ -199,9 +190,7 @@ df_origem[['name','Publisher']].sort_values(['Publisher','name'])
 
 ![Imagem10.PNG]({{site.baseurl}}/assets/images/20190220/Imagem10.PNG)
 
-
 #### **GROUP BY**
-
 
 {% highlight sql %} 
 -- SQL: 
@@ -215,7 +204,6 @@ df_origem.groupby(['Publisher']).size()
 {% endhighlight %}
 
 ![Imagem11.PNG]({{site.baseurl}}/assets/images/20190220/Imagem11.PNG)
-
 
 #### **JOIN**
 
@@ -248,7 +236,6 @@ pd.merge(df_informacoes, df_poderes, left_on=['name'], right_on=['hero_names'])
 {% endhighlight %}
 
 ![Imagem12.PNG]({{site.baseurl}}/assets/images/20190220/Imagem12.PNG)
-
 
 #### **UNION**
 
