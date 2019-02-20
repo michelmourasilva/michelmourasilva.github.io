@@ -94,6 +94,7 @@ df_origem.head(10)
 
 ![Imagem3.PNG]({{site.baseurl}}/assets/images/20190220/Imagem3.PNG)
 
+
 {% highlight sql %}
 -- SQL:
 -- Trazer os 10 registros e apresentar somente 3 colunas
