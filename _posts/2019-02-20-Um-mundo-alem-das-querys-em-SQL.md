@@ -3,11 +3,11 @@ title: Um mundo além das querys em SQL
 date: 2019-02-20 00:00:00 Z
 ---
 
-Um dos meu primeiros objetivo ao aprender Python, era poder substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL já que todos falam: "É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO".
+Um dos meu primeiros objetivo ao aprender Python, era substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL e sempre ouço: É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO.
 
-Apesar de ser uma linguagem muito útil, eu sabia que existia um outro mundo além de querys SQL, e após muito estudo descobri uma biblioteca muito poderosa chamada Pandas dentro da linguagem Python.
+Apesar de ser uma linguagem muito útil, eu sabia que existia um outro mundo além de querys SQL e , após muito estudo, descobri uma biblioteca muito poderosa chamada Pandas dentro da linguagem Python.
 
-Não tenho a pretensão de ensinar o que é Python ou Pandas, existem diversos tutoriais na internet, inclusive na própria [documentação] do Pandas já é feito essa comparação (entre SQL e Python), mas num olhar mais técnico. Aqui seria quase um "FOR DUMMIES" em português, que servirá também para que eu possa centralizar algumas informações para consulta rápida e diminuir meus post-its no meu desktop, se for útil para alguém, ótimo.
+Não tenho a pretensão de ensinar o que é Python ou Pandas, existem diversos tutoriais na internet, inclusive na própria [documentação] do Pandas já é feito essa comparação (entre SQL e Python), mas num olhar mais técnico. Aqui seria quase um "FOR DUMMIES" em português, que servirá também como um centralizador de informações para consulta rápida e diminuir meus post-its no meu desktop, e se for útil para alguém, ótimo.
 
 Tentarei fazer mais posts relacionados a este, fazendo uma progressão de complexidade utilizando essa mesma fonte de dados. Já estou preparando os posts que darão exemplos de como realizar um dataquality, sobre como utilizar funções analíticas e agregadas em cima de partições ou amostras e criação de gráficos utilizando o Matplotlib.
 
