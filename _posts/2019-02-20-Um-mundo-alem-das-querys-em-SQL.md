@@ -1,6 +1,9 @@
 ---
+title: Um Mundo Alem Das Querys Em Sql
+date: 2019-02-20 00:00:00 Z
 published: false
 ---
+
 ## Um mundo além das querys em SQL
 
 Um dos meu primeiros objetivo ao aprender Python, era poder substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL já que todos falam: "É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ NO BANCO QUE É MAIS RÁPIDO". 
