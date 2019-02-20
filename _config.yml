@@ -1,16 +1,24 @@
+---
+title: Michelmourasilva.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 name: Michel Moura Silva blog
 description: Big Data, Banco de dados e outros assuntos voltados a área de TI.
-meta_description: "Big Data, Banco de dados e outros assuntos voltados a área de TI"
-
+meta_description: Big Data, Banco de dados e outros assuntos voltados a área de TI
 markdown: kramdown
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /
-domain_name: 'http://michelmourasilva.github.io'
-google_analytics: 'UA-134337142-1'
-gems: [jekyll-paginate]
-
-# Details for the RSS feed generator
-url:            https://michelmourasilva.github.io/
-author:         'Michel Moura Silva'
+baseurl: "/"
+domain_name: http://michelmourasilva.github.io
+google_analytics: UA-134337142-1
+gems:
+- jekyll-paginate
+url: https://michelmourasilva.github.io/
+author: Michel Moura Silva

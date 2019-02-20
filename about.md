@@ -1,6 +1,6 @@
 ---
+title: About me
 layout: page
-title: About me 
 ---
 
 Profissional que atua na área de TI desde 2000, focando, desde 2006, na área de banco de dados.

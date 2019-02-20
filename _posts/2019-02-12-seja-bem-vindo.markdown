@@ -1,8 +1,9 @@
 ---
+title: Seja bem vindo!
+date: 2019-02-12 12:34:00 Z
+categories:
+- Menssagem
 layout: post
-title:  "Seja bem vindo!"
-date:   2019-02-12 12:34:00
-categories: Menssagem
 ---
 
 Irei compartilhar alguns conhecimentos adquiridos durante meus anos na área de TI, sempre de uma forma mais descontraída, objetiva e direta, seja através de algo que estou aprendendo no momento ou através de projetos no qual estou trabalhando ou já trabalhei. 
