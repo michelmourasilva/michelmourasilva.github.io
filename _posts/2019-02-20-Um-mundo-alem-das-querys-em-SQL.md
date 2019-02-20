@@ -3,7 +3,7 @@ title: Um mundo além das querys em SQL
 date: 2019-02-20 00:00:00 Z
 ---
 
-Um dos meu primeiros objetivo ao aprender Python, era poder substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL já que todos falam: "É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ NO BANCO QUE É MAIS RÁPIDO". 
+Um dos meu primeiros objetivo ao aprender Python, era poder substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL já que todos falam: "É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO".
 
 Apesar de ser uma linguagem muito útil, eu sabia que existia um outro mundo além de querys SQL, e após muito estudo descobri uma biblioteca muito poderosa chamada Pandas dentro da linguagem Python.
 
@@ -13,7 +13,6 @@ Tentarei fazer mais posts relacionados a este, fazendo uma progressão de comple
 
 
 #### **Criando estrutura do banco relacional**
-
 
 Na internet existem diversas fontes que podem ser utilizadas como exemplo. Vou utilizar uma que achei bem interessante e divertida. Encontrei nesse [endereço], mas para que pudesse trabahar com o banco que tenho (Oracle) tive que alterar o nome das colunas. Esses arquivos alterados estão logo abaixo.
 
@@ -25,23 +24,22 @@ O script SQL para criação dos objetos de banco de dados serão disponibilizado
 
 Após a criação das tabelas, basta importar o arquivo .CSV utilizando qualquer procedimento de ETL ou ferramenta, como por exemplo, o SQL Developer.
 
-
 #### **Acessando um arquivo CSV pelo Python e Pandas**
-
 
 Próximo passo é testar o acesso aos arquivos pelo python/pandas.
 
 Primeiramente importar a biblioteca do pandas.
 
-Python:
 {% highlight python %}
+# Python:
 import pandas as pd
 {% endhighlight %}
 
 Logo após, criar uma variável que irá receber o resultado do método que transforma o .csv em um objeto do tipo dataframe
 
-Python:
+
 {% highlight python %}
+# Python:
 df_origem = pd.read_csv('C:/files/super_heroes_information.csv', sep=',', encoding='ISO-8859-1')
 {% endhighlight %}
 
@@ -56,40 +54,42 @@ Partirei agora para alguns exemplos convertendo do SQL para o Python
 
 #### **SELECT**
 
-SQL:
 {% highlight sql %}
+-- SQL:
 -- Retornar todas as informações da tabela super_heroes_information
 Select * from super_heroes_information; 
 {% endhighlight %}
 
-Python:
+
 {% highlight python %}
+# Python:
 df_origem
 {% endhighlight %}
 
 ![Imagem1.PNG]({{site.baseurl}}/assets/images/20190220/Imagem1.PNG)
 
-SQL:
 {% highlight sql %}
---Retornar apenas 3 colunas da tabela 
+-- SQL:
+-- Retornar apenas 3 colunas da tabela 
 Select id, name, Gender from super_heroes_information; super_heroes_information)
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[['id','name','Gender']]
 {% endhighlight %}
 
 ![Imagem2.PNG]({{site.baseurl}}/assets/images/20190220/Imagem2.PNG)
 
-SQL:
+
 {% highlight sql %}
+-- SQL:
 -- Retornar os primeiros 10 registros da tabela super_heroes_information
 Select * from super_heroes_information where rownum <= 10; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem.head(10)
 {% endhighlight %}
 
@@ -97,56 +97,57 @@ df_origem.head(10)
 
 ou 
 
-SQL:
 {% highlight sql %}
+-- SQL:
 -- Trazer os 10 registros e apresentar somente 3 colunas
 Select id, name, Gender from super_heroes_information where rownum <= 10; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[['id','name','Gender']].head(10)
 {% endhighlight %}
 
 ![Imagem4.PNG]({{site.baseurl}}/assets/images/20190220/Imagem4.PNG)
 
-
 #### **WHERE**
 
-SQL:
 {% highlight sql %}
+-- SQL:
 -- Retorna somente o grupo X-man
 Select * from super_heroes_information where name = 'X-Man'; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem5.PNG]({{site.baseurl}}/assets/images/20190220/Imagem5.PNG)
 
-SQL:
+
 {% highlight sql %}
+-- SQL:
 -- Traz somente uma coluna
 Select name from super_heroes_information where name = 'X-Man'; 
 {% endhighlight %}
 
-Python:
+
 {% highlight python %}
+# Python:
 df_origem[['name']][df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem6.PNG]({{site.baseurl}}/assets/images/20190220/Imagem6.PNG)
 
-SQL:
 {% highlight sql %} 
+-- SQL:
 -- Retorna todas as heroínas do universo DC
 Select * from super_heroes_information where Publisher = 'DC Comics' and Gender = 'Female'; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[(df_origem['Publisher']=='DC Comics') & (df_origem['Gender']=='Female')]
 {% endhighlight %}
 
@@ -154,14 +155,14 @@ df_origem[(df_origem['Publisher']=='DC Comics') & (df_origem['Gender']=='Female'
 
 ou 
 
-SQL:
 {% highlight sql %} 
+-- SQL:
 -- Traz somente somente uma coluna
 Select name from super_heroes_information where Publisher = 'DC Comics' and Gender = 'Female'; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[['name']][df_origem['name']=='X-Man']
 {% endhighlight %}
 
@@ -170,14 +171,14 @@ df_origem[['name']][df_origem['name']=='X-Man']
 
 #### **ORDER BY**
 
-SQL:
 {% highlight sql %} 
+-- SQL:
 -- Ordena os hérois por nome
 Select * from super_heroes_information order by name;
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem.sort_values(['name'])
 {% endhighlight %}
 
@@ -185,14 +186,14 @@ df_origem.sort_values(['name'])
 
 ou 
 
-SQL:
 {% highlight sql %} 
+-- SQL:
 -- Traz somente a coluna nome e fonte de publicação, ordenando por fonte de publicação e nome
 Select name, Publisher from super_heroes_information order by Publisher, name; 
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem[['name','Publisher']].sort_values(['Publisher','name'])
 {% endhighlight %}
 
@@ -201,14 +202,15 @@ df_origem[['name','Publisher']].sort_values(['Publisher','name'])
 
 #### **GROUP BY**
 
-SQL:
+
 {% highlight sql %} 
+-- SQL: 
 -- Retorna quantos registros cada fonte de publicação possui
 Select gender, eye_color from super_heroes_information group by gender, eye_color;
 {% endhighlight %}
 
-Python:
 {% highlight python %}
+# Python:
 df_origem.groupby(['Publisher']).size()
 {% endhighlight %}
 
@@ -217,8 +219,8 @@ df_origem.groupby(['Publisher']).size()
 
 #### **JOIN**
 
-SQL:
 {% highlight sql %} 
+-- SQL:
 -- Retorna todas as informações dos heróis e seus poderes
 select * from super_heroes_information info inner join super_heroes_powers powers on info.name = powers.hero_names; 
 {% endhighlight %}
@@ -226,22 +228,22 @@ select * from super_heroes_information info inner join super_heroes_powers power
 Nesse caso será necessário acessar o outro arquivo.
 Primeiramente acessar o arquivo contendo as informações.
 
-Python:
 {% highlight python %}
+# Python:
 df_informacoes = pd.read_csv('C:/files/super_heroes_information.csv', sep=',', encoding='ISO-8859-1')
 {% endhighlight %}
 
 E logo em seguida acessar os dados contendo os poderes.
 
-Python:
 {% highlight python %}
+# Python:
 df_poderes = pd.read_csv('C:/files/super_heroes_powers.csv', sep=',', encoding='ISO-8859-1')
 {% endhighlight %}
 
 Agora poderá utilizar o merge para ligar as duas fontes de informação. O nome das colunas é diferentes, portanto deverá ser informado nas propriedades left_on e right_on o nome das colunas que fazem a ligação das duas fontes.
 
-Python:
 {% highlight python %}
+# Python:
 pd.merge(df_informacoes, df_poderes, left_on=['name'], right_on=['hero_names'])
 {% endhighlight %}
 
@@ -250,11 +252,10 @@ pd.merge(df_informacoes, df_poderes, left_on=['name'], right_on=['hero_names'])
 
 #### **UNION**
 
-
 Para simular um union quebro o dataframe de informação em 2, um com heróis do sexo masculino e outra com o sexo feminino. 
 
-Python:
 {% highlight python %}
+# Python:
 df_origem = pd.read_csv('C:/files/super_heroes_information.csv', sep=',', encoding='ISO-8859-1')
 df_masculino = df_origem[df_origem['Gender'] == 'Male'].head(5)
 df_feminino = df_origem[df_origem['Gender'] == 'Female'].head(5)
