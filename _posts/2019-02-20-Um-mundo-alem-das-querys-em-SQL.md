@@ -35,14 +35,14 @@ Primeiramente importar a biblioteca do pandas.
 
 Python:
 {% highlight python %}
-	import pandas as pd
+import pandas as pd
 {% endhighlight %}
 
 Logo após, criar uma variável que irá receber o resultado do método que transforma o .csv em um objeto do tipo dataframe
 
 Python:
 {% highlight python %}
-	df_origem = pd.read_csv('C:/files/super_heroes_information.csv', sep=',', encoding='ISO-8859-1')
+df_origem = pd.read_csv('C:/files/super_heroes_information.csv', sep=',', encoding='ISO-8859-1')
 {% endhighlight %}
 
 Propriedades utilizadas no método read_csv:
@@ -64,7 +64,7 @@ Select * from super_heroes_information;
 
 Python:
 {% highlight python %}
-	df_origem
+df_origem
 {% endhighlight %}
 
 ![Imagem1.PNG]({{site.baseurl}}/assets/images/20190220/Imagem1.PNG)
@@ -77,7 +77,7 @@ Select id, name, Gender from super_heroes_information; super_heroes_information)
 
 Python:
 {% highlight python %}
-	df_origem[['id','name','Gender']]
+df_origem[['id','name','Gender']]
 {% endhighlight %}
 
 ![Imagem2.PNG]({{site.baseurl}}/assets/images/20190220/Imagem2.PNG)
@@ -90,7 +90,7 @@ Select * from super_heroes_information where rownum <= 10;
 
 Python:
 {% highlight python %}
-	df_origem.head(10)
+df_origem.head(10)
 {% endhighlight %}
 
 ![Imagem3.PNG]({{site.baseurl}}/assets/images/20190220/Imagem3.PNG)
@@ -105,7 +105,7 @@ Select id, name, Gender from super_heroes_information where rownum <= 10;
 
 Python:
 {% highlight python %}
-	df_origem[['id','name','Gender']].head(10)
+df_origem[['id','name','Gender']].head(10)
 {% endhighlight %}
 
 ![Imagem4.PNG]({{site.baseurl}}/assets/images/20190220/Imagem4.PNG)
@@ -121,7 +121,7 @@ Select * from super_heroes_information where name = 'X-Man';
 
 Python:
 {% highlight python %}
-	df_origem[df_origem['name']=='X-Man']
+df_origem[df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem5.PNG]({{site.baseurl}}/assets/images/20190220/Imagem5.PNG)
@@ -134,7 +134,7 @@ Select name from super_heroes_information where name = 'X-Man';
 
 Python:
 {% highlight python %}
-	df_origem[['name']][df_origem['name']=='X-Man']
+df_origem[['name']][df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem6.PNG]({{site.baseurl}}/assets/images/20190220/Imagem6.PNG)
@@ -147,7 +147,7 @@ Select * from super_heroes_information where Publisher = 'DC Comics' and Gender 
 
 Python:
 {% highlight python %}
-	df_origem[(df_origem['Publisher']=='DC Comics') & (df_origem['Gender']=='Female')]
+df_origem[(df_origem['Publisher']=='DC Comics') & (df_origem['Gender']=='Female')]
 {% endhighlight %}
 
 ![Imagem7.PNG]({{site.baseurl}}/assets/images/20190220/Imagem7.PNG)
@@ -162,7 +162,7 @@ Select name from super_heroes_information where Publisher = 'DC Comics' and Gend
 
 Python:
 {% highlight python %}
-	df_origem[['name']][df_origem['name']=='X-Man']
+df_origem[['name']][df_origem['name']=='X-Man']
 {% endhighlight %}
 
 ![Imagem8.PNG]({{site.baseurl}}/assets/images/20190220/Imagem8.PNG)
@@ -178,7 +178,7 @@ Select * from super_heroes_information order by name;
 
 Python:
 {% highlight python %}
-	df_origem.sort_values(['name'])
+df_origem.sort_values(['name'])
 {% endhighlight %}
 
 ![Imagem9.PNG]({{site.baseurl}}/assets/images/20190220/Imagem9.PNG)
@@ -193,7 +193,7 @@ Select name, Publisher from super_heroes_information order by Publisher, name;
 
 Python:
 {% highlight python %}
-	df_origem[['name','Publisher']].sort_values(['Publisher','name'])
+df_origem[['name','Publisher']].sort_values(['Publisher','name'])
 {% endhighlight %}
 
 ![Imagem10.PNG]({{site.baseurl}}/assets/images/20190220/Imagem10.PNG)
@@ -209,7 +209,7 @@ Select gender, eye_color from super_heroes_information group by gender, eye_colo
 
 Python:
 {% highlight python %}
-	df_origem.groupby(['Publisher']).size()
+df_origem.groupby(['Publisher']).size()
 {% endhighlight %}
 
 ![Imagem11.PNG]({{site.baseurl}}/assets/images/20190220/Imagem11.PNG)
