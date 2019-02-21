@@ -3,7 +3,7 @@ title: Um mundo além das querys em SQL
 date: 2019-02-20 00:00:00 Z
 ---
 
-Um dos meu primeiros objetivos ao aprender Python, era substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL e sempre ouço: É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO.
+Um dos meus primeiros objetivos ao aprender Python, era substituir ou diminuir o uso da linguagem SQL que me acompanha a muitos anos. Vejo de tudo no meu dia a dia como analista de dados. Tudo é feito pelo banco utilizando SQL e sempre ouço: É MAIS FÁCIL USAR SQL DO QUE FAZER EM JAVA e o famoso FAZ O PROGRAMA NO BANCO QUE É MAIS RÁPIDO.
 
 Apesar de ser uma linguagem muito útil, eu sabia que existia um outro mundo além de querys SQL e , após muito estudo, descobri uma biblioteca muito poderosa chamada Pandas dentro da linguagem Python.
 
