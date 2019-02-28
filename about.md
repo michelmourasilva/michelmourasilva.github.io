@@ -20,7 +20,7 @@ Fique a disposição para entrar em contato comigo pelo meu [e-mail] ou pelas mi
 
 Para saber sobre toda a minha carreira profissional meu [curriculum] estará a disposição para download.
 
-<object data="{{ site.url }}/assets/images/Curriculum.pdf" width="1000" height="1000" type='application/pdf'/>
+<object data="{{ site.url }}/assets/files/Curriculum.pdf" width="1000" height="1000" type='application/pdf'/>
 
 Até já.
 
@@ -28,4 +28,4 @@ Até já.
 [Twitter]: https://twitter.com/meshellmoura
 [Linkedin]: https://www.linkedin.com/in/michelmourasilva/
 [e-mail]: michelmourasilva@gmail.com
-[curriculum]: /assets/images/Curriculum.pdf
+[curriculum]: /assets/files/Curriculum.pdf
