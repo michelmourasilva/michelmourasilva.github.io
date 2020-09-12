@@ -62,7 +62,7 @@ Select * from super_heroes_information;
 
 {% highlight python %}
 # Python:
-df_origem
+df_origem.loc[:]
 {% endhighlight %}
 
 ![Imagem1.PNG]({{site.baseurl}}/assets/images/20190220/Imagem1.PNG)
@@ -75,7 +75,7 @@ Select id, name, Gender from super_heroes_information; super_heroes_information)
 
 {% highlight python %}
 # Python:
-df_origem[['id','name','Gender']]
+df_origem.loc[:,['id','name','Gender']]
 {% endhighlight %}
 
 ![Imagem2.PNG]({{site.baseurl}}/assets/images/20190220/Imagem2.PNG)
